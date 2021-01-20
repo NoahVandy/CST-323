@@ -5,11 +5,11 @@ const bodyParser = require('body-parser');
 const mysql = require('mysql');
 
 const connection = mysql.createConnection({
-  host: 'localhost',
-  port: '3306',
-  user: 'root',
-  password: 'root',
-  database: 'CST-323'
+  host: '127.0.0.1',
+  port: 56625,
+  user: 'azure',
+  password: '6#vWHD_$',
+  database: '323-activity',
 })
 
 connection.connect();
